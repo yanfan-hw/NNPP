@@ -2,6 +2,7 @@ import Tab from "./Tab";
 import PersonalInfo from "./PersonalInfo";
 import OrderSummary from "./OrderSummary";
 import CardDetails from "./CardDetails";
+import FAQ from "./FAQ";
 
 export default function App() {
     return (
@@ -10,6 +11,7 @@ export default function App() {
             <PersonalInfo />
             <OrderSummary />
             <CardDetails />
+            <FAQ />
         </>
     )
 }
